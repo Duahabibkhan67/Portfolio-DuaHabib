@@ -29,12 +29,12 @@ export default function Header() {
 
   return (
     <div className="flex justify-between my-6 mx-9 shadow-md">
-      <header className="flex justify-between mx-11 lg:bg-gradient-to-r lg:from-gray-800 border-accent lg:to-gray-900 lg:rounded-full fixed text-transparent"
+      <header className="flex justify-between mx-11 lg:bg-gradient-to-r lg:from-gray-800 border-accent sm:to-gray-900 lg:rounded-full fixed text-transparent"
  >
         <div>
           <Link href="/">
             <h1 className="text-2xl lg:text-2xl  lg:mt-4  mx-9 text-white">
-              <b>PORTFOLIO</b>
+              <b>DUAHABIB</b>
             </h1>
           </Link>
         </div>
@@ -81,7 +81,7 @@ export default function Header() {
           <>
             {/* Overlay Background */}
             <motion.div
-              className="fixed inset-0 bg-gray-700 bg-opacity-50 z-40"
+              className="fixed inset-0 bg-black bg-opacity-50 z-40"
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               exit={{ opacity: 0 }}
@@ -113,7 +113,7 @@ export default function Header() {
               </button>
 
              
-              <motion.div className="flex flex-col gap-6 mt-10 bg-gray-600 border border-gray-800">
+              <motion.div className="flex flex-col gap-6 mt-10 bg-black  ">
                 {["Home", "About", "Contact"].map((item, i) => (
                   <motion.div
                     key={item}
