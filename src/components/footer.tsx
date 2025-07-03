@@ -28,7 +28,7 @@ export default function Footer() {
           <div className="flex gap-4 mt-4">
     
             <Link href="https://www.linkedin.com/in/dua-habib-497557301?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><FaLinkedin className="text-xl hover:text-green-500 cursor-pointer transition" /></Link>
-           <Link href="https://github.com/Duahabibkhan67">
+           <Link href="https://github.com/Duahabib67">
            <FaGithub className="text-xl hover:text-purple-500 cursor-pointer transition" />
            </Link> 
           </div>

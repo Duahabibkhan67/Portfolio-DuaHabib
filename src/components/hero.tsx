@@ -30,7 +30,7 @@ export default function Hero() {
               <FaLinkedinIn />
             </p>
           </Link>
-          <Link href="https://github.com/Duahabibkhan67">
+          <Link href="https://github.com/Duahabib67">
             <p className="text-gray-300 text-3xl hover:bg-purple-800 hover:text-white hover:scale-110 transition-transform duration-300 border-2 border-purple-700 rounded-full p-3">
               <FiGithub />
             </p>
